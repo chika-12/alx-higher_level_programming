@@ -1,6 +1,4 @@
-#!/usr/bin/puthon3
-
-
+#!/usr/bin/puthon
 def print_matrix_integer(matrix=[[]]):
     for row in matrix:
         for column in row:
