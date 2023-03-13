@@ -8,5 +8,3 @@ def multiple_returns(sentence):
         for i in sentence:
             length += 1
     return(length, first_char)
-
-            
