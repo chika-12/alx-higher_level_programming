@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 0-square.py by Chika Mark
+# 0-square.py by chika-12
 """A module that defines a square"""
 
 
