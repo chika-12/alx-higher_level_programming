@@ -69,4 +69,3 @@ class Rectangle:
     def __repr__(self):
         """Evaluates a string"""
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
-
