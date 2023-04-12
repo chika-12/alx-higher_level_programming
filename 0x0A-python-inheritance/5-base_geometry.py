@@ -2,5 +2,6 @@
 """Creates a class"""
 
 
-class BaseGeometry(object):
+class BaseGeometry:
+    """creates an empty class"""
     pass
