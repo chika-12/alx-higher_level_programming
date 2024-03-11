@@ -1,3 +1,0 @@
-#!/usr/bin/python3
-for alph in range(ord('z') , ord('z') - 1, - 1):
-    print(chr(alph))
