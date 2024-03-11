@@ -1,2 +1,2 @@
 THIS REPOSITORY CONTAINS PYTHON CODES AS GIVEN BY ALX
-Alx Project understanding python
+~alx Project understanding python~
