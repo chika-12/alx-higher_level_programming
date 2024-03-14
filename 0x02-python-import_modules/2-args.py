@@ -4,14 +4,11 @@ if __name__ == "__main__":
     """Prints the number of arguments in a list"""
     import sys
 
-    argv = sys.argv
-    n = 1
-    if len(argv) - 1 == 1:
-        print("{} argument:".format(len(argv) - 1))
+    count = len(sys.argv) - 1
+    if count == 1:
+        print("{} argument:".format(count))
     else:
-        print("{} arguments:".format(len(argv) - 1))
+        print("{} arguments:".format(count))
 
-    for val in argv:
-        if val != argv[0]:
-            print("{}: {}".format(n, val))
-            n += 1
+    for val in range(count):
+        print("{}: {}".format(val + 1, sys.argv[val + 1]))
