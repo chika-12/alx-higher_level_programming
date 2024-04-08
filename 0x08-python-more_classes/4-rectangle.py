@@ -71,9 +71,4 @@ class Rectangle:
 
     def __repr__(self):
         """returns a string representation of object"""
-        return f"Rectangle(width={self.__width}, height={self.__height})"
-
-    @classmethod
-    def from_repr(cls, repr_str):
-        """Creates a new instance of Rectangle from a string representation"""
-        return eval(repr_str)
+        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
