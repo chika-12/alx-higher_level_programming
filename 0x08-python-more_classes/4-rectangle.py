@@ -68,7 +68,7 @@ class Rectangle:
             if col < self.__height - 1:
                 rectangle += "\n"
         return rectangle
-    
+
     def __repr__(self):
         """returns a string representation of object"""
         return f"Rectangle(width={self.__width}, height={self.__height})"
