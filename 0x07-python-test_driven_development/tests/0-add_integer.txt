@@ -28,3 +28,29 @@ Adding and integer and a string(3 and "people"):
 Adding and integer with the default value of b (2, b=98):
     >>> add_integer(2)
     100
+
+Case overflow:
+
+    >>> add_integer(float('inf'), 0)
+    Traceback (most recent call last):
+              ...
+    OverflowError: cannot convert float infinity to integer
+
+Case overflow2:
+
+    >>> add_integer(float('inf'), float('-inf'))
+    Traceback (most recent call last):
+              ...
+    OverflowError: cannot convert float infinity to integer
+
+Case NaN:
+    >>> add_integer(float('nan'), 0)
+    Traceback (most recent call last):
+              ...
+    ValueError: cannot convert float NaN to integer
+
+Case NaN2:
+    >>> add_integer(float('nan'))
+    Traceback (most recent call last):
+              ...
+    ValueError: cannot convert float NaN to integer
