@@ -8,11 +8,10 @@ def roman_to_int(roman_string):
 
     add = 0
     index = len(roman_string)
-    index2 = len(roman_string)
     char = 0
-    if index2 < 2:
+    if index < 2:
         add += d[roman_string]
-    if index2 >= 2:
+    if index >= 2:
         while char < index - 1:
             if roman_string[char] in d:
                 if d[roman_string[char]] >= d[roman_string[char + 1]]:

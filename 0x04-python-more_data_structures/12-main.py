@@ -9,7 +9,7 @@ print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 roman_number = "MMMDCC"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
-roman_number = "56"
+roman_number = "XC"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
 roman_number = "LXXXVII"
